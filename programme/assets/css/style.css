@@ -1,0 +1,36 @@
+body{ /*SELECTEUR DE BALISE */
+    width: 70%; /*largeur de la page*/
+    margin: 0 auto; /*centrer la largeur*/
+    background-color: lightgray; /*couleur de fond*/
+}
+
+main{
+    background-color: lightsteelblue;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    font-family: cursive; /*taille de la police */
+}
+.class{ /*SELECTEUR =.CLASS*/
+    color: red;
+}
+#id-1{
+    text-decoration: underline;/*souligné*/
+}
+#id-2{
+    border: 1px solid #0000;
+}
+#id-3, #id-4{
+    color: #fff;
+}
+#id-3{
+    background-color: #0000;
+}
+#id-4{
+    background-color: salmon;
+}
+#section-3 #id-3{
+    padding: 20%;/*marge interieur*/
+}

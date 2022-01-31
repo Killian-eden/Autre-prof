@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bases HTML-CSS</title>
+		<!-- CSS Vendor / Librairie -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<!-- CSS perso -->
+		<link rel="stylesheet" href="assets/css/base.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <main>
+            <form method="post" action="" enctype="">
+                <fieldset class="bordure">
+                    <legend>Identiter</legend>
+            
+                    <label for="nom">Pseudo *</label>
+                    <br>
+                    <input type="text" class="texte" id="nom" name="nom" placeholder="Ex : Jean31" required>
+                    <br>  
+                    <label for="mdp">Mot de passe *</label>
+                    <br>
+                    <input type="password" class="texte" id="mdp" name="mdp" placeholder="Mot de passe" required>
+                    <br>
+                    <label for="email">Email *</label>     
+                    <br> 
+                    <input type="email" class="texte" id="email" name="email" placeholder="email" required>
+                    <br>
+                    <label for="ville">Ville</label>
+                    <br>
+                    <input type="text" class="texte" id="ville" name="ville" list="france">
+                    <datalist id="france">
+                        <option>Paris</option>
+                        <option>Lyon</option>
+                        <option>Marseille</option>
+                    </datalist>
+                    <br>
+                    <label for="cp">Code postal</label>
+                    <br>
+                    <input type="text" class="texte" id="id" name="id" maxlength="5" pattern="[0-9]{5}">
+                    <br>
+                    <label for="file">Photo</label>
+                    <br>
+                    <fieldset>
+                        <input type="file" class="texte" id="file" name="file">
+                        <br>
+                    </fieldset>
+                </fieldset>
+
+                <fieldset class="bordure">
+                    <label for="choix">Quel destination voulez vous</label>
+                    <p>
+                        <!--cases à cocher carrées, CHECKED en coche une par défaut-->
+                        <input type="checkbox" name="choix">Chine
+                        <input type="checkbox" name="choix">Australie
+                        <input type="checkbox" name="choix">Mars
+                    </p>
+                    <label for="adress">Commentaire</label>
+                    <textarea id="adress" name="adress" rows="5" cols="5"></textarea>
+                    <br>
+                </fieldset>
+                <input type="checkbox" name="condition" required>J'accepte les condition d'utilisation du site
+                <input type="submit" id="inscription" name="inscription" value="S'inscrire">
+                <input type="reset" id="restart" name="efface" value="Recommencer">
+                <br>
+                
+            
+            </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chronomètre en Javascript</h1>
+
+    <div id="time"></div>
+
+
+    <form name="parametre" action="" method="">
+        <input type="button" name="lance"  value="Démarrer" onclick="chrono();debut();">
+        <input type="button" name="pause"  value="Stop" onclick="arret();" disabled="disabled">
+        <input type="button" name="zero"  value="Effacer" onclick="arret();raz();" disabled="disabled">
+
+    </form>
+
+
+    <div id="presenter">
+        <p>Temps intermediaire : </p>
+        <span id="interm"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

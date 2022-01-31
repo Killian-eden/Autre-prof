@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bases Html-CSS</title>
+        <!-- Css Vendor / librairie -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <script src="https://kit.fontawesome.com/dab5cd1486.js" crossorigin="anonymous"></script>
+        <!-- Css perso -->
+            <link rel="stylesheet" href="assets/css/base.css">
+            <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Sleepy Kitten</h1>
+        </header>
+        <main>
+            <div id="flex">
+                <div class="fontawe">
+                    <div class="bluecircle"><i class="fas fa-map-marker-alt"></i></div>
+                    <p><span class="bold">Address : </span>198 West  21th Street, Suite 721 New York NY 10016</p>
+                </div>
+                <div class="fontawe">
+                    <div class="bluecircle"><i class="fas fa-phone-alt"></i></div>
+                    <p><span class="bold">Phone : </span><a href="#">+ 1235 2355 98</a></p>
+                </div>
+                <div class="fontawe">
+                    <div class="bluecircle"><i class="fas fa-paper-plane"></i></div>
+                    <p><span class="bold">Email : </span><a href="#">info@yoursite.com</a></p>
+                        
+                </div>
+                <div class="fontawe">
+                    <div class="bluecircle"><i class="fas fa-globe-americas"></i></div>
+                        <p><span class="bold">Website </span><a href="#">yoursite.com</a></p>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="principale">
+                <div id="formulaire">
+                    <h2>Contact Us</h2>
+                    <form action="">
+                        <label for="nom" class="startform">Full name</label>
+                        <label for="email" class="startform startform2">Email address</label>
+                        <input type="text" class="startform" class="startform" id="nom" name="nom" placeholder="Name" required>
+                        <input type="email" class="startform startform2" name="email" placeholder="email" required>
+                        <br>
+                        <label for="subject">Subject</label>
+                        <br>
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                        <br>
+                        <label for="text">Message</label>
+                        <br>
+                        <textarea name="text" cols="30" rows="10"></textarea>
+                        <br>
+                        <input type="submit" id="submit" name="submit" value="Send message">
+                    </form>
+                </div>
+                <div id="image">
+                    <img src="assets/img/img.jpg" alt="tiger" id="img">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
