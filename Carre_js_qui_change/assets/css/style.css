@@ -1,0 +1,47 @@
+svg{
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+header{
+    margin: 0 auto;
+    width: 30%;
+}
+.btn{
+    width: 10%;
+    height: 100px;
+    border-radius: 5px;
+}
+#btnup{
+    width: 100%;
+    background-color: blue;
+    margin-bottom: 2px;
+}
+#btnleft{
+    width: 50%;
+    float: left;
+    background-color: green;
+    margin-right: 2px;
+}
+#btnright{
+    width: 49.6%;
+    float: left;
+    background-color: red;
+}
+#btndown{
+    width: 100%;
+    background-color: yellow;
+    margin-top: 2px;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+}
+
+
+
+.clear{
+    clear: both;
+}

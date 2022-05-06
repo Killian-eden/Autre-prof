@@ -1,0 +1,18 @@
+#logo_fire{
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+#img_fire{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: left;
+}
+#text_fire{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}

@@ -1,0 +1,132 @@
+
+*{
+    font-family: 'Akaya Telivigala', cursive;
+}
+html{
+    background-image: url(../img/round.png);
+}
+main{
+    margin-left: 10%;
+}
+.short{
+    background-image: url(../img/food.png);
+    width: 10%;
+    position: fixed;
+    height: 100%;
+}
+.short img{
+    width: 70%;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+.short li{
+    margin-top: 15%;
+    text-align: center;
+}
+.long{
+    width: 90%;
+    margin-left: 10%;
+    height: 100px;
+    background-image: url(../img/food.png);
+}
+.long li{
+    margin-top: 30px;
+}
+.short ul, .long ul {
+    margin: 0;
+    padding: 0;
+}
+.short li, .long li{
+    list-style: none;
+}
+.short a, .long a{
+    font-family: 'Akaya Telivigala', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.long a{
+    font-size: 35px;
+}
+h1{
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    text-decoration: none;
+    font-size: 25px;
+}
+.short a:hover, .long a:hover{
+    transition: 2s;
+    color: black;
+}
+h2{
+    font-size: 5em;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+}
+a{
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+h3{
+    font-size: 3em;
+    margin: 0;
+}
+article{
+    width: 40%;
+    border: 5px solid black;
+    border-radius: 25px;
+    float: left;
+    padding: 10px;
+}
+p, article li{
+    font-size: 1.5em;
+}
+.articlecenter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#nouveaux{
+    width: 40%;
+}
+#selection{
+    width: 40%;
+}
+.long ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+#logo_fire{
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+#img_fire{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: left;
+}
+#text_fire{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.les_saison{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.clear{
+    clear: both;
+}

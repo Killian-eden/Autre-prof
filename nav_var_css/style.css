@@ -1,0 +1,59 @@
+:root{
+    --default: red;
+    --font: 3em;
+    --padding: 10px;
+    --color: yellow;
+    --transition: 1s;
+    --color-back-btn: black;
+    --color-front-btn: white;
+}
+body{
+    transition: var(--transition);
+}
+nav{
+    transition: var(--transition);
+    background: var(--default);
+}
+ul{
+    transition: var(--transition);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+}
+li{
+    transition: var(--transition);
+    list-style-type : none;
+    padding: var(--padding);
+}
+a{
+    transition: var(--transition);
+    text-decoration: none;
+    font-size: var(--font);
+    color: var(--color);
+}
+#colorChange{
+    height: 10vw;
+    width: 20vw;
+    background-color: var(--color-back-btn);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin: 10vw auto;
+}
+#colorButton{
+    height: 9vw;
+    width: 9vw;
+    background-color: var(--color-front-btn);
+    border-radius: 100px;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+@keyframes anim {
+    from {margin-left: 0.5vw}
+    to {margin-left: 10.5vw}
+}
+@keyframes anim-return {
+    from {margin-left: 10.5vw}
+    to {margin-left: 0.5vw}
+}

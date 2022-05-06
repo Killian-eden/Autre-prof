@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: #FAFAFA;
+}
+a{
+    color: #46B5D1;
+}
+.bluecircle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #46B5D1;
+    margin: 0 auto;
+}
+.fontawe{
+    float: left;
+    width: 20%;
+}
+.fontawe p{
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+#flex{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.bold{
+    font-weight: bold;
+}
+i{
+    color: white;
+    margin-top: 35%;
+    margin-left: 35%;
+}
+#principale{
+    width: 70%;
+    margin: 0 auto;
+}
+#formulaire, #image{
+    width: 50%;
+    float: left;
+}
+#img{
+    width: 100%;
+}
+#formulaire{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 245px;
+}
+label, input{
+    font-size: 2em;
+}
+input, textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.startform{
+    width: 40%;
+    float: left;
+}
+.startform2{
+    margin-left: 10%;
+}
+#subject{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+#submit{
+    border: none;
+    background-color: #46B5D1;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}

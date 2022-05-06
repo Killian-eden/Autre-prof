@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sirin+Stencil&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+body{
+    background-color: darkblue;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2{
+    font-family: 'Sirin Stencil', sans-serif;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+}
+h2{
+    font-size: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    font-size: 1.8rem;
+    font-style: italic;
+    text-align: center;
+    color: lightgray;
+}
+span{
+    color: #e0aaff;
+}
+#ordi, #grand, #tablet, #bf{
+    display: none;
+}
+/*tablette*/
+@media screen and (min-width: 776px) and (max-width: 991px){
+    html{ font-size: 14px; }
+    body{ background-color: yellow;}
+    h3{ color: lightgray}
+    span{color: #bbd0ff;}
+    #ordi, #grand, #mobile{display: none;}
+    #tablet{ display: block;}
+}
+/*ordi*/
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    html{ font-size: 18px; }
+    body{ background-color: red; color: #000;}
+    span{color: #5a189a;}
+    #grand, #mobile{display: none;}
+    #ordi{ display: block;}
+}
+@media screen and (min-width: 1200px){
+    html{font-size: 20px;}
+    body{background-color: lightskyblue;}
+    h3{color: darkslategray;}
+    span{color: #40A798;}
+    #grand{ display: block}
+    #mobile{ display: none}
+}

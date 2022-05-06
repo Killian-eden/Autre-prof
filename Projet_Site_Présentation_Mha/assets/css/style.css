@@ -1,0 +1,508 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(../img/footer_lodyas/footer_lodyas/footer_lodyas.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+background-image: url(../img/footer_lodyas/footer_lodyas/footer_lodyas.png);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: grey;
+border-radius: 20px;
+border-image: 2px solid url(../img/footer_lodyas/footer_lodyas/footer_lodyas.png);
+}
+a{
+    text-decoration: none;
+}
+.fondbien{
+    background-image: url(../img/mha.png) ;
+    background-attachment: fixed;
+    background-position-y: 15px;
+    background-position-x: center;
+}
+header.logoh{
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+
+}
+.mha_fond{
+    position: relative;
+    z-index: 0;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.img_mha{
+    max-width: 900px;
+    margin: 0 auto; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.mha_text{
+    color: white;
+    text-align: center;
+}
+
+.titre{
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 2px 1px black;
+
+}
+.univers{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.seconde1{
+    height: 250px;
+    width: 450px;
+    border-radius: 50px;
+}
+.rangement{
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 80%;
+}
+.img_lien{
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+}
+.img_lien1{
+    display: block;
+    border-radius: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+h2.titreacceuil{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 2px 1px black;
+}
+#headery{
+    background-image: url(../img/yuei_header.jpg) ;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+header.headera{
+    background-image: url(../img/fond2.jpeg) ;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+header.headerb{
+    background-image: url(../img/logob.jpg) ;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -325px;
+}
+#headerbig3{
+    background-image: url(../img/big3_header.jpg) ;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.headerg{
+    background-image: url(../img/header_classe.jpg);
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -112px;
+}
+header.headerprof{
+    background-image: url(../img/headerprof.jpg) ;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -180px;
+}
+.titre2{
+    color: white;
+    margin: 20;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 2px 1px black;
+}
+.a1{
+    color: black;
+    width: 450px;
+}
+.img_gif{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#shoto{
+    padding: 0 8.5%;
+    box-sizing: border-box;
+}
+.texte{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+.a1:hover, .gef2:hover, .gef2:hover p, .gef2:hover img, .a1:hover img, .a1:hover p{
+    transition: all .4s ease 0s;
+    color: #D74E09;
+}
+.ip{
+    float: left;
+    width: 13%;
+}
+.ipspecial{
+    float: left;
+    width: 10%;
+}
+.ipbig{
+    float: left;
+    width: 15%;
+}
+.presentation p, .presentation img{
+    float: left;
+}
+.presentation{
+    margin-top: 50px;
+    padding-left: 50px;    
+    width: 100%;
+}
+.tp{
+    font-size: 35px;
+    font-weight: 100;
+}
+.element{
+    float: left;
+}
+.element p, .element h1{
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 35px;
+    color: white;
+}
+.taille{
+    width: 100%;
+}
+.retour{
+    width: 189px;
+    margin-left: 50px;
+    font-size: 25px;
+    text-shadow: 2px 2px 1px black;
+    margin-top: 1%;
+}
+.retour a{
+    color: white;
+}
+.description{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 2em;
+    display: none;
+}
+.description p, p.description{
+    color: white;
+    z-index: 1;
+}
+.gef{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.centrer{
+    text-align: center;
+}
+
+.ataille{
+    width: 50px;
+}
+.activated{
+    display: block  ;
+}
+.nospoil{
+    background-image: url(../img/footer_lodyas/footer_lodyas/footer_lodyas.png);
+    display: block;
+    font-size: 40px;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 4px 1px 1px black;
+    margin-top: 50px;
+    border-radius: 25px 5px 25px 5px ;
+    padding: 8px;
+}
+.clear{
+    clear: both;
+}
+.gf{
+    width: 250px;
+    height: 250px;
+}
+.gef2{
+    display: inline-block;
+    width: 20%;
+    margin: 0 auto;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.trait{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.graph2deku, .graph1deku, .graph2yaomomo, .graph1yaomomo, .graph2tsuyu, .graph1tsuyu, .graph2toru, .graph1toru, .graph2ochaco, .graph1ochaco, .graph2mina, .graph1mina, .graph2kyoka, .graph1kyoka, .graph2yuga, .graph1yuga, .graph2tenya, .graph1tenya, .graph2shoto, .graph1shoto, .graph2rikido, .graph1rikido, .graph2minoru, .graph1minoru, .graph2mezo, .graph1mezo, .graph2mashirao, .graph1mashirao, .graph2koji, .graph1koji, .graph2katchan, .graph1katchan, .graph2hanta, .graph1hanta, .graph2fumikage, .graph1fumikage, .graph2eijiro, .graph1eijiro, .graph2denki, .graph1denki{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 486px;
+}
+
+.graph1deku, .graph2deku, .graph1denki, .graph2denki, .graph1eijiro, .graph2eijiro, .graph1fumikage, .graph2fumikage, .graph1hanta, .graph2hanta{
+    float: left;
+    margin-top: 5%;
+    margin-left: 17px;
+    width: 27%;
+    color: white;
+}
+.graph1deku{
+    background-image: url(../img/Graphique/graphique_deku_Ultra_Archive.png);
+}
+.graph1deku p, .graph2deku p, .graph1denki p, .graph2denki p, .graph1eijiro p, .graph2eijiro p, .graph1fumikage p, .graph2fumikage p, .graph1hanta p ,.graph2hanta p, .graph1katchan p, .graph2katchan p, .graph1koji p, .graph2koji p{
+    text-align: center;
+    padding-top: 81%;
+    margin: 0;
+    float: none;
+    font-size: 2rem;
+    color: white;
+}
+.graph2deku{
+    background-image: url(../img/Graphique/graphique_deku_Ultra_Analysis.png);
+}
+.graph1denki{
+    background-image: url(../img/Graphique/graphique_denki_Ultra_Archive.png);
+}
+.graph2denki{
+    background-image: url(../img/Graphique/graphique_denki_Ultra_Analysis.png);
+}
+.graph1eijiro{
+    background-image: url(../img/Graphique/graphique_eijiro_Ultra_Archive.png);
+}
+.graph2eijiro{
+    background-image: url(../img/Graphique/graphique_eijiro_Ultra_Analysis.png);
+}
+.graph1fumikage{
+    background-image: url(../img/Graphique/graphique_fumikage_Ultra_Archive.png);
+}
+.graph2fumikage{
+    background-image: url(../img/Graphique/graphique_fumikage_Ultra_Analysis.png);
+}
+.graph1hanta{
+    background-image: url(../img/Graphique/graphique_hanta_Ultra_Archive.png);
+}
+.graph2hanta{
+    background-image: url(../img/Graphique/graphique_hanta_Ultra_Analysis.png);
+}
+.graph1katchan, .graph2katchan, .graph1koji, .graph2koji{
+    float: left;
+    margin-top: 5%;
+    margin-left: 17px;
+    width: 28%;
+}
+.graph1katchan{
+    background-image: url(../img/Graphique/graphique_bakugo_Ultra_Archive.png);
+}
+.graph2katchan{
+    background-image: url(../img/Graphique/graphique_bakugo_Ultra_Analysis.png);
+}
+.graph1koji{
+    background-image: url(../img/Graphique/graphique_Koji_Ultra_Archive.png);
+}
+.graph2koji{
+    background-image: url(../img/Graphique/graphique_koji_Ultra_Analysis.png);
+}
+.graph1mashirao, .graph2mashirao, .graph1tenya, .graph2tenya, .graph1shoto, .graph2shoto, .graph1rikido, .graph2rikido, .graph1minoru, .graph2minoru, .graph1mezo, .graph2mezo{
+    float: left;
+    margin-top: 5%;
+    margin-left: 17px;
+    width: 26%;
+}
+.graph1mashirao{
+    background-image: url(../img/Graphique/graphique_Ojiro_Ultra_Archive.png);
+}
+.graph1mashirao p, .graph2mashirao p, .graph1yaomomo p, .graph2yaomomo p, .graph1tsuyu p, .graph2tsuyu p, .graph1toru p, .graph2toru p, .graph1ochaco p, .graph2ochaco p, .graph1mina p, .graph2mina p, .graph1kyoka p, .graph2kyoka p, .graph1yuga p, .graph2yuga p, .graph1tenya p, .graph2tenya p,.graph1shoto p, .graph2shoto p, .graph1rikido p, .graph2rikido p,.graph1minoru p, .graph2minoru p,.graph1mezo p, .graph2mezo p{
+    text-align: center;
+    padding-top: 86%;
+    margin: 0;
+    float: none;
+    font-size: 2rem;
+    color: white;
+}
+.graph2mashirao{
+    background-image: url(../img/Graphique/graphique_Ojiro_Ultra_Analysis.png);
+}
+.graph1mezo{
+    background-image: url(../img/Graphique/graphique_Shoji_Ultra_Archive.png);
+}
+.graph2mezo{
+    background-image: url(../img/Graphique/graphique_Shoji_Ultra_Analysis.png);
+}
+.graph1minoru{
+    background-image: url(../img/Graphique/graphique_Minoru_Ultra_Archive.png);
+}
+.graph2minoru{
+    background-image: url(../img/Graphique/graphique_Minoru_Ultra_Analysis.png);
+}
+.graph1rikido{
+    background-image: url(../img/Graphique/graphique_Rikido_Ultra_Archive.png);
+}
+.graph2rikido{
+    background-image: url(../img/Graphique/graphique_Rikido_Ultra_Analysis.png);
+}
+.graph1shoto{
+    background-image: url(../img/Graphique/graphique_shoto_Ultra_Archive.png);
+}
+.graph2shoto{
+    background-image: url(../img/Graphique/graphique_shoto_Ultra_Analysis.png);
+}
+.graph1tenya{
+    background-image: url(../img/Graphique/graphique_Tenya_Ultra_Archive.png);
+}
+.graph2tenya{
+    background-image: url(../img/Graphique/graphique_Tenya_Ultra_Analysis.png);
+}
+.graph1yuga, .graph2yuga,.graph1yaomomo, .graph2yaomomo, .graph1tsuyu, .graph2tsuyu, .graph1toru, .graph2toru, .graph1ochaco, .graph2ochaco, .graph1mina, .graph2mina, .graph1kyoka, .graph2kyoka {
+    float: left;
+    margin-top: 5%;
+    margin-left: 17px;
+    width: 24%;
+    color: white;
+}
+.graph1yuga{
+    background-image: url(../img/Graphique/graphique_Yuga_Ultra_Archive.png);
+}
+.graph2yuga{
+    background-image: url(../img/Graphique/graphique_Yuga_Ultra_Analysis.png);
+}
+.graph1kyoka{
+    background-image: url(../img/Graphique/graphique_Kyoka_Ultra_Archive.png);
+}
+.graph2kyoka{
+    background-image: url(../img/Graphique/graphique_Kyoka_Ultra_Analysis.png);
+}
+.graph1mina{
+    background-image: url(../img/Graphique/graphique_Mina_Ultra_Archive.png);
+}
+.graph2mina{
+    background-image: url(../img/Graphique/graphique_Mina_Ultra_Analysis.png);
+}
+.graph1ochaco{
+    background-image: url(../img/Graphique/graphique_Ochaco_Ultra_Archive.png);
+}
+.graph2ochaco{
+    background-image: url(../img/Graphique/graphique_Ochaco_Ultra_Analysis.png);
+}
+.graph1toru{
+    background-image: url(../img/Graphique/graphique_Toru_Ultra_Archive.png);
+}
+.graph2toru{
+    background-image: url(../img/Graphique/graphique_Toru_Ultra_Analysis.png);
+}
+.graph1tsuyu{
+    background-image: url(../img/Graphique/graphique_Tsuyu_Ultra_Archive.png);
+}
+.graph2tsuyu{
+    background-image: url(../img/Graphique/graphique_Tsuyu_Ultra_Analysis.png);
+}
+.graph1yaomomo{
+    background-image: url(../img/Graphique/graphique_Momo_Ultra_Archive.png);
+}
+.graph2yaomomo{
+    background-image: url(../img/Graphique/graphique_Momo_Ultra_Analysis.png);
+}
+.saison{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Montagu Slab', serif;
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 0px 3px white;
+}
+.transfer{
+    color: lightslategrey;
+}
+.transfer:hover{
+    text-decoration: underline;
+}
+.none{
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+.navsaison{
+    float: left;
+    position: sticky;
+    top: 10px;
+}
+.textnavsaison{
+    float: left;
+    font-size: 3em;
+    color: white;
+}
+.textnavsaison:hover{
+    transition: 1s;
+    color: red;
+    text-decoration: underline;
+}
+.aidenav1{
+    margin-left: 38.5%;
+}
+.aidenav2{
+    text-align: left;
+    margin-left: 45%;
+}
+.aidenav3{
+    margin-left: 43.5%;
+}
+.categorie {
+    width: 50%;
+}
+.ligne{
+    display: flex;
+    justify-content: space-around;
+}

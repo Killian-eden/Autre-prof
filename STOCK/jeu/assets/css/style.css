@@ -1,0 +1,89 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(../img/lava.jpg);
+
+}
+.test1{
+    position: fixed;
+    z-index: 7;
+    top: 0;
+}
+#reset{
+    position: fixed;
+    top: 50px;
+    z-index: 7;
+}
+img{
+    width: 5%;
+    position: relative;
+}
+#perso{
+    background-color: transparent;
+    position: relative;
+    z-index: 7;
+}
+.wallbottom{
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/bloc.png);
+    background-size: 100px;
+    position: absolute;
+    top: 892px;
+}
+.wallleft{
+    position: absolute;
+    z-index: 0;
+    width: 100px;
+    height: 1000px;
+    background-image: url(../img/bloc.png);
+    background-size: 100%;
+    top: 0;
+    left: -91px;
+}
+.wallright{
+    position: absolute;
+    z-index: 0;
+    width: 100px;
+    height: 1000px;
+    background-image: url(../img/bloc.png);
+    background-size: 100%;
+    top: 0;
+    left: 1887px;
+}
+
+.walltopleft{
+    position: absolute;
+    z-index: 0;
+    width: 900px;
+    height: 100px;
+    background-image: url(../img/bloc.png);
+    background-size: 100px;
+    top: 0;
+}
+.walltopright{
+    position: absolute;
+    z-index: 0;
+    width: 900px;
+    height: 100px;
+    background-image: url(../img/bloc.png);
+    background-size: 100px;
+    top: 0;
+    left: 997px;
+}
+.end{
+    display: none;
+    position: absolute;
+    z-index: 7;
+    margin: 0 auto;
+    font-size: 5em;
+    color: white;
+    left: 22%;
+    top: 25%;
+}
+.endimg{
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 0;
+}

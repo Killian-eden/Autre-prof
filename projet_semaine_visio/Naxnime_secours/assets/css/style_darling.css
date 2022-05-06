@@ -1,0 +1,25 @@
+.darling{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.img_darling{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: left;
+}
+.text_darling{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.les_saison{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.clear{
+    clear: both;
+}

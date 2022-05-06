@@ -1,0 +1,108 @@
+*{
+    font-family: 'Akaya Telivigala', cursive;
+}
+html{
+    background-image: url(../img/round.png);
+}
+main{
+    margin-left: 10%;
+}
+.short{
+    background-image: url(../img/food.png);
+    width: 10%;
+    position: fixed;
+    height: 100%;
+}
+.short img{
+    width: 70%;
+    border-radius: 100%;
+    border: 5px solid black;
+}
+.short li{
+    margin-top: 15%;
+    text-align: center;
+}
+.long{
+    width: 90%;
+    margin-left: 10%;
+    height: 100px;
+    background-image: url(../img/food.png);
+}
+.long a{
+    font-size: 35px;
+}
+
+.long li{
+    margin-top: 30px;
+}
+.short ul, .long ul {
+    margin: 0;
+    padding: 0;
+}
+.short li, .long li{
+    list-style: none;
+}
+.short a, .long a{
+    font-family: 'Akaya Telivigala', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+h1{
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    color: black;
+    font-family: 'Akaya Telivigala', cursive;
+    text-decoration: none;
+    font-size: 25px;
+}
+.short a:hover, .long a:hover{
+    transition: 2s;
+    color: black;
+}
+#titre{
+    font-size: 5em;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 50px;
+}
+a{
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+.long ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+#img_assassinatioon{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: left;
+}
+#text_assassination{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+#logo_assassination{
+    margin: 0 auto;
+    display: block;
+    width: 35%;
+}
+.les_saison{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.clear{
+    clear: both;
+}

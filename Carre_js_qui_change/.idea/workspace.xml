@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7912502-ecd4-4118-8e35-fa4bc10d5464" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CSS_Flex/demo_5/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_JS_slack/TP_RegExp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TP_JS_slack/TP_RegExp/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../function_révision/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html_killian_07_03_2022/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html_killian_07_03_2022/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html_killian_07_03_2022/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html_killian_07_03_2022/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html_killian_07_03_2022/views/gaming.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html_killian_07_03_2022/views/science.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js_ecouteur_d'evenement/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manipulation_du_dom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../media_querys/mobile_first.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../media_querys/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nav_var_css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nav_var_css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nav_var_css/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nav_var_css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../orange_responsive/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../orange_responsive/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/assets/css/style_aide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/assets/css/style_bunny.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/assets/css/style_darling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/assets/css/style_lie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/assets/css/style_violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/html/aide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/html/romance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/html/sous-html/darling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/html/sous-html/lie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/Naxnime/html/sous-html/violet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/assets/css/style_fire_force.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/views/assasination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projet_semaine_visio/views/fire_force.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recu-recaler/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../recu-recaler/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeu_js/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../jeu_js/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeu_js/assets/img/lava.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../jeu_js/assets/img/lava.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeu_js/assets/img/piq_19490_400x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeu_js/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jeu_js/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeu_js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jeu_js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../selecteur_js/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../selecteur_js/assets/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27haUOcZIFiv2ATyk39isYdQ3bI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7912502-ecd4-4118-8e35-fa4bc10d5464" name="Changes" comment="" />
+      <created>1649774787903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649774787903</updated>
+      <workItem from="1649774789097" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

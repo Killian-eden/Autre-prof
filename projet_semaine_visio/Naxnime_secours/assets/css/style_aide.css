@@ -1,0 +1,32 @@
+form{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+input, select, textarea{
+    display: block;
+    margin: 0 auto ;
+    text-align: center;
+    font-size: 25px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+#nom, #email{
+    width: 50%;
+    height: 40px;
+}
+#prob{
+    width: 51%;
+    height: 50px;
+}
+#lda{
+    width: 50%;
+    height: 150px;
+}
+#envoyer{
+    width: 30%;
+    height: 50px;
+    background-color: white;
+    border-radius: 0 20px 0 20px ;
+}

@@ -1,0 +1,34 @@
+
+.violet{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3%;
+}
+
+.img_violet{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    float: left;
+}
+.text_violet{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+.les_saison{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.saison_violet{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
